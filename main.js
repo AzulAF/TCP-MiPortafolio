@@ -1,13 +1,15 @@
-let app = document.getElementById('typewriter');
- 
-let typewriter = new Typewriter(app, {
-  loop: true,
-  delay: 75,
+const spans = document.querySelectorAll('.word span');
+
+spans.forEach((span, idx) => {
+	span.addEventListener('click', (e) => {
+		e.target.classList.add('active');
+	});
+	span.addEventListener('animationend', (e) => {
+		e.target.classList.remove('active');
+	});
+	
+	// Initial animation
+	setTimeout(() => {
+		span.classList.add('active');
+	}, 750 * (idx+1))
 });
- 
-typewriter
-  .pauseFor(2500)
-  .typeString('Estudiante de Ingeniería en Computación.')
-  .pauseFor(200)
-  .deleteChars(10)
-  .start();

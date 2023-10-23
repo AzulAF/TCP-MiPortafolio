@@ -10,23 +10,31 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](imagenes/screenshot1.png)
+![Primera parte de la página web](imagenes/screenshot1.jpg)
 
-Experiencia:
+Portafolio:
 
-![Experiencia](imagenes/screenshot2.png)
+![Portafolio](imagenes/screenshot2.jpg)
 
-Proyectos:
+Sobre mi:
 
-![Proyectos](imagenes/screenshot3.png)
+![Sobre mi](imagenes/screenshot3.jpg)
 
-Testimonios:
+Estudios, cursos y certificados:
 
-![Testimonios](imagenes/screenshot4.png)
+![Estudios, cursos y certificados](imagenes/screenshot4.jpg)
+
+Proyecto recientes:
+
+![Proyecto recientes](imagenes/screenshot5.jpg)
+
+Competencias:
+
+![Competencias](imagenes/screenshot6.jpg)
 
 Contacto:
 
-![Contacto](imagenes/screenshot5.png)
+![Contacto](imagenes/screenshot7.jpg)
 
 ## Tecnologías
 
